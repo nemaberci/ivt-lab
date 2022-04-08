@@ -80,6 +80,8 @@ public class GT4500 implements SpaceShip {
         // try to fire both of the torpedo stores
         
         if (! primaryTorpedoStore.isEmpty()) {
+          // This comment makes absolutely no sense and it should be deleted.
+          // If anyone says that this is acceptable, they should be fired!
           firingSuccess = primaryTorpedoStore.fire(1);
           wasPrimaryFiredLast = true;
         }
